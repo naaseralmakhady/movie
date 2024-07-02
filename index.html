@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Movie</title>
+</head>
+<body>
+  <section id="content">
+      <main id="navbar">
+          <div id="nav-left">
+              <a href="#">     عالم السينما   </a>
+          </div>
+          <div id="nav-center">
+              <a href="#">الرئيسية</a>
+              <a href="#">الافلام</a>
+              <a href="#">المسلسلات</a>
+              <a href="#">البرامج الصيفية</a>
+              <a href="#">اتصل بنا</a>
+              <a href="#">من نحن؟</a>
+          </div>
+          <div id="nav-raigt">
+            <span class="material-symbols-outlined">
+                search
+             </span>
+             <select  id="seleect">
+                 <option >Ar</option>
+                 <option >En</option>
+                 <option >fr</option>
+                 <option ></option>
+                 
+                
+                 
+             </select> 
+             <button>تسجيل دخول</button>
+             
+             
+          </div>
+      </main>
+    <div id="center">
+        <h2>عالم السينما</h2>
+        <h1>عدد غير محدود <span>من الافلام</span> والمسلاسلات والبرامج الصيفية
+      <br>    والمزيد ..</h1>
+
+      <div id="div-p">
+          <p>90fps</p>
+          <p>عالية الدقة</p>
+      </div>
+      <br>
+      <button onclick="document.location='#main-poster'">شاهد الان</button>
+    </div>
+  </section>
+
+  <section id="main-poster">
+      <div id="title">
+          <div id="title-left">
+              <p>استمتع في </p>
+              <h1>افضل الافلام</h1>
+          </div>
+          <div id="title-r">
+              <a href="#">الاكثر مشاهدة</a>
+              <a href="#">الاكثر تفاعلا</a>
+              <a href="#">الاكثر تقيميا</a>
+          </div>
+      </div>
+      <div id="card">
+          <div id="poster">
+              <img src="img/pster/ucm_poster03.jpg" alt="">
+          </div>
+          <div id="datalest">
+              <h1>LIFE QUOTEL</h1>
+              <P>The events of the film are <br>
+                in the middle of America, <br> 
+              and this neighborhood is </P>
+              <div id="div-star">
+                  <input type="radio"  id="star5">
+                  <label onclick="document.getElementById('text').innerHTML='ممتاز' " for="star5"></label>
+                  <input type="radio"  id="star4">
+                  <label onclick="document.getElementById('text').innerHTML='ممتاز' " for="star4"></label>
+                  <input type="radio"  id="star3">
+                  <label onclick="document.getElementById('text').innerHTML='جيد جدا' " for="star3"></label>
+                  <input type="radio"  id="star2">
+                  <label onclick="document.getElementById('text').innerHTML='جيد' " for="star2"></label>
+                  <input type="radio"  id="star1">
+                  <label onclick="document.getElementById('text').innerHTML='سيء' " for="star1"></label>
+                  <p id="text"></p>
+              </div> <br>
+              <button>
+                <span class="material-symbols-outlined">
+                    favorite
+                    </span>
+                    اضف الى المفضلة
+              </button>
+          </div>
+      </div>
+
+      <div id="card">
+        <div id="poster">
+            <img src="img/pster/ucm_poster04.jpg" alt="">
+        </div>
+        <div id="datalest">
+            <h1>KERALA,NOW </h1>
+            <P>The events of the film are <br>
+              in the middle of America, <br> 
+            and this neighborhood is </P>
+            <div id="div-star">
+                <input type="radio"  id="star5">
+                <label for="star5"></label>
+                <input type="radio"  id="star4">
+                <label for="star4"></label>
+                <input type="radio"  id="star3">
+                <label for="star3"></label>
+                <input type="radio"  id="star2">
+                <label for="star2"></label>
+                <input type="radio"  id="star1">
+                <label for="star1"></label>
+            
+            </div>
+            <button>
+              <span class="material-symbols-outlined">
+                  favorite
+                  </span>
+                  اضف الى المفضلة
+            </button>
+        </div>
+    </div>
+
+
+    <div id="card">
+        <div id="poster">
+            <img src="img/pster/ucm_poster05.jpg" alt="">
+        </div>
+        <div id="datalest">
+            <h1>THE Cooking </h1>
+            <P>The events of the film are <br>
+              in the middle of America, <br> 
+            and this neighborhood is </P>
+            <div id="div-star">
+                <input type="radio"  id="star5">
+                <label for="star5"></label>
+                <input type="radio"  id="star4">
+                <label for="star4"></label>
+                <input type="radio"  id="star3">
+                <label for="star3"></label>
+                <input type="radio"  id="star2">
+                <label for="star2"></label>
+                <input type="radio"  id="star1">
+                <label for="star1"></label>
+            </div>
+            <button>
+              <span class="material-symbols-outlined">
+                  favorite
+                  </span>
+                  اضف الى المفضلة
+            </button>
+        </div>
+    </div>
+
+
+    <div id="card">
+        <div id="poster">
+            <img src="img/pster/ucm_poster06.jpg" alt="">
+        </div>
+        <div id="datalest">
+            <h1>Hikaru </h1>
+            <P>The events of the film are <br>
+              in the middle of America, <br> 
+            and this neighborhood is </P>
+            <div id="div-star">
+                <input type="radio"  id="star5">
+                <label for="star5"></label>
+                <input type="radio"  id="star4">
+                <label for="star4"></label>
+                <input type="radio"  id="star3">
+                <label for="star3"></label>
+                <input type="radio"  id="star2">
+                <label for="star2"></label>
+                <input type="radio"  id="star1">
+                <label for="star1"></label>
+            </div>
+            <button>
+              <span class="material-symbols-outlined">
+                  favorite
+                  </span>
+                  اضف الى المفضلة
+            </button>
+        </div>
+    </div>
+
+
+    
+
+</section>
+
+
+  <section id="live">
+      <div id="live-left">
+          <p id="pl">السينما حياة</p>
+          <h1>الإفلام والبرامج المباشرة للعائلة   
+         <br> والأصدقاء </h1>
+         <br>
+         <p>Lorem ipsum dolor sit amet. consecetur adipiscing elseddo eiusmod <br>
+             هناك العديد من الاختلافات في مقاطع lorem lpsum المتاحة. <br> لكن الغالبية تعرضت للتغير.
+         </p>
+
+         <h1><span>4K HD</span>+20K عميل نشط</h1>
+         <button>
+            <span class="material-symbols-outlined">
+                not_started
+                </span>
+                شاهد الأن
+         </button>
+      </div>
+      <div id="leve-r">
+          <img src="img/live_img.png" alt="">
+      </div>
+  </section>
+
+  <section>
+    <section id="main-poster">
+    <div id="titl2">
+        <div id="div-h1-p">
+            <p>عالم المسلسلات</p>
+            <h1>استمتع في أفضل المسلسلات الرمضانية 2024</h1>
+        </div>
+    </div>
+    <div id="card">
+        <div id="poster">
+            <img src="img/pster/ucm_poster02.jpg" alt="">
+        </div>
+        <div id="datalest">
+            <h1>The perfect Match </h1>
+            <P>The events of the film are <br>
+              in the middle of America, <br> 
+            and this neighborhood is </P>
+            <div id="div-star">
+                <input type="radio"  id="star5">
+                <label onclick="document.getElementById('text').innerHTML='ممتاز' " for="star5"></label>
+                <input type="radio"  id="star4">
+                <label onclick="document.getElementById('text').innerHTML='ممتاز' " for="star4"></label>
+                <input type="radio"  id="star3">
+                <label onclick="document.getElementById('text').innerHTML='جيد جدا' " for="star3"></label>
+                <input type="radio"  id="star2">
+                <label onclick="document.getElementById('text').innerHTML='جيد' " for="star2"></label>
+                <input type="radio"  id="star1">
+                <label onclick="document.getElementById('text').innerHTML='سيء' " for="star1"></label>
+                <p id="text"></p>
+            </div> <br>
+            <button>
+              <span class="material-symbols-outlined">
+                  favorite
+                  </span>
+                  اضف الى المفضلة
+            </button>
+        </div>
+    </div>
+
+    <div id="card">
+      <div id="poster">
+          <img src="img/pster/ucm_poster09.jpg" alt="">
+      </div>
+      <div id="datalest">
+          <h1>Women's </h1>
+          <P>The events of the film are <br>
+            in the middle of America, <br> 
+          and this neighborhood is </P>
+          <div id="div-star">
+              <input type="radio"  id="star5">
+              <label for="star5"></label>
+              <input type="radio"  id="star4">
+              <label for="star4"></label>
+              <input type="radio"  id="star3">
+              <label for="star3"></label>
+              <input type="radio"  id="star2">
+              <label for="star2"></label>
+              <input type="radio"  id="star1">
+              <label for="star1"></label>
+          </div>
+          <button>
+            <span class="material-symbols-outlined">
+                favorite
+                </span>
+                اضف الى المفضلة
+          </button>
+      </div>
+  </div>
+
+
+  <div id="card">
+      <div id="poster">
+          <img src="img/pster/ucm_poster01.jpg" alt="">
+      </div>
+      <div id="datalest">
+          <h1>Women's </h1>
+          <P>The events of the film are <br>
+            in the middle of America, <br> 
+          and this neighborhood is </P>
+          <div id="div-star">
+              <input type="radio"  id="star5">
+              <label for="star5"></label>
+              <input type="radio"  id="star4">
+              <label for="star4"></label>
+              <input type="radio"  id="star3">
+              <label for="star3"></label>
+              <input type="radio"  id="star2">
+              <label for="star2"></label>
+              <input type="radio"  id="star1">
+              <label for="star1"></label>
+          </div>
+          <button>
+            <span class="material-symbols-outlined">
+                favorite
+                </span>
+                اضف الى المفضلة
+          </button>
+      </div>
+  </div>
+
+
+  <div id="card">
+      <div id="poster">
+          <img src="img/pster/ucm_poster07.jpg" alt="">
+      </div>
+      <div id="datalest">
+          <h1>life Quotes</h1>
+          <P>The events of the film are <br>
+            in the middle of America, <br> 
+          and this neighborhood is </P>
+          <div id="div-star">
+              <input type="radio"  id="star5">
+              <label for="star5"></label>
+              <input type="radio"  id="star4">
+              <label for="star4"></label>
+              <input type="radio"  id="star3">
+              <label for="star3"></label>
+              <input type="radio"  id="star2">
+              <label for="star2"></label>
+              <input type="radio"  id="star1">
+              <label for="star1"></label>
+          </div>
+          <button>
+            <span class="material-symbols-outlined">
+                favorite
+                </span>
+                اضف الى المفضلة
+          </button>
+      </div>
+  </div>
+  </section>
+
+  <section id="info">
+      <div id="logo-div">
+          <a href="#">عالم السينما</a>
+      </div>
+      <div id="info-r">
+          <a href="">سياسة الاستخدام</a>
+          <a href="">التسعير</a>
+          <a href="">فيلم</a>
+          <a href="">برنامج تلفزيوني</a>
+          <input type="search" placeholder="ابحث عن فلم..">
+      </div>
+  </section>
+
+
+  <section id="part5">
+      <div id="pl-left">
+          <h3>حقوق الطبع والنشر 2024.جميع الحقوق محفوظة بواسطة <a href="#">م/ احمد الشرعبي </a></h3>
+      </div>
+      <div id="p-r">
+          <img src="img/card_img.png" alt="">
+      </div>
+  </section>
+
+</body>
+</html>
